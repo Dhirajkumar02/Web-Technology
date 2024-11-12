@@ -1,0 +1,9 @@
+h1 {
+  color: red;
+  color: #efefef;
+  color: rgb(106, 183, 38);
+  color: rgba(255, 125, 0, 1);
+  color: hsl(hue, saturation, lightness);
+  color: hsla(256, 40%, 50%, 1);
+  color: #f27f3d;
+}

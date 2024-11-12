@@ -1,0 +1,67 @@
+h1 {
+  color: red;
+  /* text-align: left;
+  text-align: right; */
+  text-align: center;
+  /* text-transform: capitalizer;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-shadow: 2px -1px 2px blue;
+  text-decoration: underline overline line-through;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-indent: 2px; */
+}
+
+/* div {
+  border: 2px solid red;
+  width: 60px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  overflow: scroll;
+  text-overflow: clip;
+  text-overflow: ellipsis;
+} */
+
+/* Background property */
+
+/* div {
+  background-color: red;
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+  background-image: url(../Images/Dhiraj.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right;
+  background-position: left;
+  background-size: cover;
+} */
+
+/* Height and width property */
+/* div {
+  border: 2px solid red;
+  height: 400px;
+  width: 400px;
+
+  min-height: 100px;
+  max-height: 500px;
+
+  min-width: 100px;
+  max-width: 500px;
+} */
+
+/* font property */
+
+p {
+  font-size: 50px;
+  /* font-weight: bold;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace; */
+  font-family: sans-serif, "Bebas Neue";
+  font-weight: 400;
+  font-style: normal;
+}

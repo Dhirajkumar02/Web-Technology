@@ -1,0 +1,36 @@
+/* Universal Selector */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+} */
+
+/* Grouping Selector */
+/* div,
+section,
+h1,
+aside {
+  background-color: hotpink;
+  color: yellow;
+} */
+
+/* Pseudo Element */
+p::before {
+  content: "Hi i am cute boy";
+  color: red;
+}
+p::after {
+  content: "End";
+  color: red;
+  font-size: 50px;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+::marker {
+  color: rgb(128, 0, 62);
+  font-size: 40px;
+}

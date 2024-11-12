@@ -1,0 +1,17 @@
+/* Radial-gradiant */
+
+div {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+  background: radial-gradient(
+      rgba(255, 255, 0, 0.315),
+      rgba(255, 0, 0, 0.803),
+      rgba(0, 0, 0, 0.446),
+      lightblue 50%
+    ),
+    url(../Images/red-panda-1851650_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

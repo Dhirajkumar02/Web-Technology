@@ -1,0 +1,46 @@
+/* section {
+  background-color: yellow;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+div {
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  background-color: red;
+  margin-top: 50px;
+} */
+
+/* .card1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.card2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: absolute;
+  margin-left: 30px;
+}
+.card3 {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+} */
+
+h1 {
+  background-color: crimson;
+  height: 120px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  /* position: fixed; */
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+div {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+  background: repeating-linear-gradient(
+      rgba(255, 0, 0, 0.835),
+      rgba(0, 255, 0, 0.292),
+      rgba(0, 0, 255, 0.568),
+      rgba(0, 128, 0, 50%)
+    ),
+    url(../Images/red-panda-1851650_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

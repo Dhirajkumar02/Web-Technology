@@ -1,0 +1,37 @@
+/* .head {
+  background-color: green;
+  color: yellow;
+  font-size: 40px;
+}
+#head1{
+    background-color: aqua;
+    color: black;
+}
+*/
+
+/* id and class Selector */
+
+#section {
+  background-color: chocolate;
+  color: blueviolet;
+}
+
+.div {
+  background-color: crimson;
+  color: aliceblue;
+}
+#sectionOne {
+  background-color: red;
+  color: yellow;
+}
+
+.sectionSecond {
+  background-color: blue;
+  color: yellow;
+}
+
+/* Element (tag) Selector  */
+h1 {
+  background-color: darkorchid;
+  color: darkred;
+}

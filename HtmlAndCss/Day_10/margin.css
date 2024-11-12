@@ -1,0 +1,12 @@
+p {
+  height: 400px;
+  width: 400px;
+  /* margin: 50px; */
+  /* margin-top: 50px; */
+  /* margin-left: 70px; */
+  /* margin-right: 80px; */
+  /* margin-bottom: 50px; */
+
+  /* Short hand property */
+  margin: 50px 70px 50px 70px;
+}

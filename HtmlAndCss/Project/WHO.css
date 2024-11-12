@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.footerTag {
+  /* border: 2px solid red; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c2b64;
+}
+
+.footerContainer {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards {
+  /* border: 2px solid red; */
+  height: inherit;
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cards h1 a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  /* transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+}
+.cards h1 a:hover {
+  background-color: #006cbe;
+}
+.cards ul {
+  /* border: 2px solid  black; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.cards ul li {
+  list-style: none;
+}
+.cards ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  /* transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+}
+.cards ul li a:hover {
+  background-color: #006cbe;
+}
+
+.cards1 {
+  /* border: 2px solid red; */
+  height: inherit;
+  width: 23%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+}
+.cards1 h1 a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  /* transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+}
+.cards1 h1 a:hover {
+  background-color: #006cbe;
+}
+button {
+  height: 50px;
+  width: 270px;
+  font-size: 17px;
+  background-color: #2a4577;
+  color: white;
+  border: 1px solid #0c2b64;
+}
+button:hover {
+  border: 1px solid #006cbe;
+  cursor: pointer;
+}
+
+.footerLast {
+  /* border: 2px solid red; */
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c2b64;
+}
+.svgDiv {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+}
+.svgDiv svg {
+  height: 100%;
+  margin-bottom: 20px;
+  fill: white;
+}
+.svgDiv svg:hover {
+  background-color: #006cbe;
+  cursor: pointer;
+}
+
+.iconsDiv {
+  /* border: 2px solid red; */
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a4577;
+}
+.icons {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  /* border: 2px solid red; */
+  width: 15%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left h1 a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.left h1 a:hover {
+  background-color: #006cbe;
+  cursor: pointer;
+}
+.center {
+  /* border: 2px solid red; */
+  width: 60%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.center i {
+  font-size: 25px;
+  color: white;
+}
+.center i:hover {
+  background-color: #006cbe;
+  cursor: pointer;
+}
+.right {
+  /* border: 2px solid red; */
+  width: 15%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.right a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.right a:hover {
+  background-color: #006cbe;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+/* Linear-gradient */
+
+div {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+  background: linear-gradient(
+      130deg,
+      rgb(255, 0, 0, 0.831),
+      rgba(0, 0, 255, 0.324),
+      rgba(0, 128, 0, 0.731)
+    ),
+    url(../Images/red-panda-1851650_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

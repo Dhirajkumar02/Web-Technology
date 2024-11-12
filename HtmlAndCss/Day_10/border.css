@@ -1,0 +1,14 @@
+div {
+  height: 400px;
+  width: 400px;
+  /* border: 20px solid red; */
+  /* border-top: 10px solid red;
+  border-bottom: 10px solid green;
+  border-left: 20px solid blue;
+  border-right: 20px solid yellow; */
+  /* border: 20px solid yellow; */
+  /* border: 10px double green; */
+  /* border: 20px ridge blue; */
+  /* border: 10px groove blueviolet; */
+  border: 20px dotted red;
+}
