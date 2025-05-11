@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Decendent selector
+        Nested Child */
+        section div {
+            background-color: yellow;
+        }
+
+        /* Child selector
+        Direct Child */
+        section>div {
+            background-color: red;
+        }
+
+        /* General selector
+        all div after section closing tag
+        */
+        section~div {
+            background-color: aqua;
+        }
+
+        /* Adjacent sibling
+        just after section closing tag
+        */
+        section+div {
+            background-color: green;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>Combinator selectors are 4 types: </h1>
+    <ol>
+        <li>Decendent Selectors: denoted by empty_space</li>
+        <li>Child Selectors : denoted by ></li>
+        <li>General Sibling : denoted by ~</li>
+        <li>Adjacent sibling : denoted by +</li>
+    </ol>
+
+    <div>div 1</div>
+    <section>
+        <div>div 2</div>
+        <div>div 3</div>
+
+        <article>
+            <div>div 4</div>
+            <div>div 5</div>
+        </article>
+
+        <div>div 6</div>
+    </section>
+
+    <div>div 7</div>
+    <div>div 8</div>
+</body>
+
+</html>

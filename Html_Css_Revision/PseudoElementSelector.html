@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            color: red;
+        }
+
+        p::first-letter {
+            color: blue;
+            font-size: 80px;
+        }
+
+        p::selection {
+            background-color: black;
+            color: white;
+        }
+
+        ::marker {
+            color: chocolate;
+        }
+
+        h1::before {
+            content: "😊";
+            font-size: 50px;
+        }
+
+        h1::after {
+            content: "👉";
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo - Element Selector denoted by ::</h1>
+    <ol>
+        <li>::first-line</li>
+        <li>::first-letter</li>
+        <li>::selection</li>
+        <li>::marker</li>
+        <li>::before</li>
+        <li>::after</li>
+    </ol>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex nemo impedit facilis minus exercitationem, esse
+        ea natus ullam odio? Hic qui quaerat molestiae omnis facere quasi, modi pariatur ipsa!
+        Vel itaque est nostrum eaque fuga assumenda quam aut quibusdam ea vitae minima, commodi error veritatis sed?
+        Modi fuga magnam suscipit odit, aperiam voluptas hic reprehenderit! Reprehenderit obcaecati ipsum omnis?
+        Vel, illum aspernatur ipsam quis assumenda alias possimus nobis inventore modi est non minima sapiente. Earum
+        impedit dignissimos, modi, doloremque explicabo ipsa inventore eos aut mollitia repudiandae quo consectetur
+        fuga?
+        Placeat nobis eaque maiores, incidunt expedita pariatur? Rerum quasi numquam praesentium delectus cum, et
+        voluptatibus nulla aperiam! Exercitationem praesentium minima voluptatem quisquam fugit debitis non molestiae
+        ipsam, vitae deserunt autem?
+        Quod delectus fugit earum adipisci quas? Fuga labore a doloribus, dolores dolorum nisi quasi iure nam,
+        consectetur itaque enim minima quae ut recusandae id non quas quaerat neque unde necessitatibus?</p>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            background-color: lightblue;
+        }
+
+        #box {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+        .container {
+            background-color: aqua;
+        }
+
+        .content {
+            color: red;
+        }
+
+        main {
+            background-color: blueviolet;
+        }
+
+        .para,
+        #navbar,
+        footer {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Selectors</h1>
+    <ol>
+        <li>id denoted by: hash (#)</li>
+        <li> class denoted by: dot (.)</li>
+        <li>tagname denoted by: element_name</li>
+        <li>group denoted by: Comma (,)</li>
+        <li>Universal denoted by: Asterisk (*)</li>
+    </ol>
+    <div id="box"></div>
+
+    <section class="container">Target using class</section>
+    <article class="container content">Target using class</article>
+    <header class="container">Target using class</header>
+
+    <main>Target using tagname</main>
+    <main>Target using tagname</main>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing Sit.</p>
+    <nav id="navbar">I am nav</nav>
+    <footer>I am footer</footer>
+</body>
+
+</html>

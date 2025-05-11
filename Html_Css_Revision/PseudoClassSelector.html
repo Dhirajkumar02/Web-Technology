@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn1:hover {
+            background-color: blue;
+            cursor: pointer;
+            color: white;
+        }
+
+        #btn2:active {
+            background-color: red;
+            color: white;
+        }
+
+        #box {
+            height: 100px;
+            width: 100px;
+            background-color: lightgreen;
+        }
+
+        #btn3:active+#box {
+            background-color: darkgreen;
+        }
+
+        #menu {
+            height: 0;
+            width: 100px;
+            background-color: gray;
+            transition: .2s;
+        }
+
+        #btn4:active+#menu {
+            height: 200px;
+        }
+
+        a:link {
+            color: aqua;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        main>section:first-of-type {
+            background-color: aqua;
+        }
+
+        main>section:last-of-type {
+            background-color: blue;
+        }
+
+        main>section:nth-of-type(2) {
+            background-color: cadetblue;
+        }
+
+        ul>li:first-child {
+            background-color: brown;
+        }
+
+        ul>li:last-child {
+            background-color: red;
+        }
+
+        ul>li:nth-child(3) {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo-Class selectors - denoted by :</h1>
+    <ol>
+        <li>:hover</li>
+        <li>:active</li>
+        <li>:link</li>
+        <li>:visited</li>
+        <li>:firstchild</li>
+        <li>:lastchild</li>
+        <li>:nth-child()</li>
+        <li>:first-of-type</li>
+        <li>:last-of-type</li>
+        <li>:nth-of-type()</li>
+    </ol>
+
+    <button id="btn1">Hover me</button>
+    <button id="btn2">Click me</button>
+
+    <button id="btn3">change div color</button>
+    <div id="box"></div>
+    <hr>
+    <button id="btn4">| | |</button>
+    <div id="menu"></div>
+
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+    <a href="https://zomato.com">Zomato</a>
+
+    <main>
+        <section>Section 1</section>
+        <article>Article 1</article>
+        <section>Section 2</section>
+        <nav>nav 1</nav>
+        <aside>aside 1</aside>
+        <section>Section 3</section>
+        <nav>nav 2</nav>
+        <article>Article 2</article>
+    </main>
+
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>js</li>
+        <li>node</li>
+    </ul>
+</body>
+
+</html>
